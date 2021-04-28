@@ -1,0 +1,4 @@
+AgoraRtcEngineKit.framework/AgoraRtcEngineKit filter=lfs diff=lfs merge=lfs -text
+Pods/AgoraRtcEngine_iOS/AgoraRtcEngineKit.framework/AgoraRtcEngineKit filter=lfs diff=lfs merge=lfs -text
+libs/AgoraRtcEngineKit.framework/AgoraRtcEngineKit filter=lfs diff=lfs merge=lfs -text
+libs/AgoraRtcCryptoLoader.framework/AgoraRtcCryptoLoader filter=lfs diff=lfs merge=lfs -text

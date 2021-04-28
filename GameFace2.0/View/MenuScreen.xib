@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="Luc-lp-acc">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="GameModes" translatesAutoresizingMaskIntoConstraints="NO" id="fNc-TN-SdC">
+                    <rect key="frame" x="129" y="60" width="154" height="38"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="© 2021 GameFace. All Rights Reserved." translatesAutoresizingMaskIntoConstraints="NO" id="MA7-8u-y53">
+                    <rect key="frame" x="130" y="828" width="154" height="26"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tBG-rY-faK">
+                    <rect key="frame" x="65.5" y="95" width="283" height="57"/>
+                    <state key="normal" image="RandomGame"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="08o-zu-184">
+                    <rect key="frame" x="63.5" y="160" width="283" height="57"/>
+                    <state key="normal" image="TicTacToe"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bzi-hf-th4">
+                    <rect key="frame" x="63.5" y="225" width="283" height="57"/>
+                    <state key="normal" image="ConnectFour"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P5m-fm-BO2">
+                    <rect key="frame" x="63.5" y="290" width="283" height="57"/>
+                    <state key="normal" image="Pong"/>
+                </button>
+                <button opaque="NO" tag="999" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yPy-4Y-4fy">
+                    <rect key="frame" x="65.5" y="739" width="283" height="57"/>
+                    <state key="normal" image="LeaderboardButton"/>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="4UF-jZ-q60"/>
+            <color key="backgroundColor" red="0.20784313730000001" green="0.22352941179999999" blue="0.28235294119999998" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="08o-zu-184" firstAttribute="centerX" secondItem="Luc-lp-acc" secondAttribute="centerX" constant="-2" id="22u-lm-hFI"/>
+                <constraint firstItem="fNc-TN-SdC" firstAttribute="top" secondItem="4UF-jZ-q60" secondAttribute="top" constant="16" id="3Y3-uY-LtV"/>
+                <constraint firstItem="tBG-rY-faK" firstAttribute="top" secondItem="4UF-jZ-q60" secondAttribute="top" constant="51" id="CHT-MO-CO3"/>
+                <constraint firstItem="MA7-8u-y53" firstAttribute="top" secondItem="yPy-4Y-4fy" secondAttribute="bottom" constant="32" id="Ch9-4h-JBg"/>
+                <constraint firstItem="bzi-hf-th4" firstAttribute="centerX" secondItem="Luc-lp-acc" secondAttribute="centerX" constant="-2" id="SPa-xx-392"/>
+                <constraint firstItem="bzi-hf-th4" firstAttribute="top" secondItem="08o-zu-184" secondAttribute="bottom" constant="8" symbolic="YES" id="UqJ-03-BCm"/>
+                <constraint firstItem="4UF-jZ-q60" firstAttribute="bottom" secondItem="MA7-8u-y53" secondAttribute="bottom" constant="8" id="WEr-Vw-7Sm"/>
+                <constraint firstItem="fNc-TN-SdC" firstAttribute="centerX" secondItem="Luc-lp-acc" secondAttribute="centerX" constant="-1" id="XEs-gb-H2L"/>
+                <constraint firstItem="P5m-fm-BO2" firstAttribute="centerX" secondItem="Luc-lp-acc" secondAttribute="centerX" constant="-2" id="a3a-WK-zmp"/>
+                <constraint firstItem="MA7-8u-y53" firstAttribute="centerX" secondItem="Luc-lp-acc" secondAttribute="centerX" id="gEc-Ls-1fo"/>
+                <constraint firstItem="yPy-4Y-4fy" firstAttribute="centerX" secondItem="Luc-lp-acc" secondAttribute="centerX" id="sO6-6C-onZ"/>
+                <constraint firstItem="P5m-fm-BO2" firstAttribute="top" secondItem="bzi-hf-th4" secondAttribute="bottom" constant="8" symbolic="YES" id="vG2-O0-mjJ"/>
+                <constraint firstItem="tBG-rY-faK" firstAttribute="centerX" secondItem="Luc-lp-acc" secondAttribute="centerX" id="xdh-xR-iwM"/>
+                <constraint firstItem="08o-zu-184" firstAttribute="top" secondItem="tBG-rY-faK" secondAttribute="bottom" constant="8" symbolic="YES" id="ycj-aL-C9R"/>
+            </constraints>
+            <point key="canvasLocation" x="-1" y="273"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ConnectFour" width="283" height="57"/>
+        <image name="GameModes" width="154" height="38"/>
+        <image name="LeaderboardButton" width="283" height="57"/>
+        <image name="Pong" width="283" height="57"/>
+        <image name="RandomGame" width="283" height="57"/>
+        <image name="TicTacToe" width="283" height="57"/>
+        <image name="© 2021 GameFace. All Rights Reserved." width="154" height="26"/>
+    </resources>
+</document>
